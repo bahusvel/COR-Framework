@@ -9,7 +9,7 @@ Analysis is business logic that uses the inputs and decides the response
 Responses are modules responsible for conducting actions on the infrastructure
 
 The modules communicate via messages described in detail the protocol specification:
-TODO
+https://github.com/bahusvel/COR-Framework/blob/master/protocol.md
 
 Typical application for COR include:
 * Real time backup based on system risk
@@ -26,4 +26,4 @@ Currently supported environments are:
 * Feel free to develop your own... It's Easy!
 
 To develop your own modules please visit the module development guide:
-TODO
+https://github.com/bahusvel/COR-Framework/blob/master/moduledev.md
