@@ -12,15 +12,15 @@ The modules communicate via messages described in detail the protocol specificat
 TODO
 
 Typical application for COR include:
-Real time backup based on system risk
-Enforcing security policies
-Detailed resource usage and KPI reporting
-Intelligent system management
-YOUR OWN IDEA HERE!!!
+* Real time backup based on system risk
+* Enforcing security policies
+* Detailed resource usage and KPI reporting
+* Intelligent system management
+* YOUR OWN IDEA HERE!!!
 
 COR-Framework is designed interopperate between any platform, any language and over any network. To achieve such flexibility COR defines a protocol that needs to be impletmented in the target language/platform. Once the protocol is implemented others may develop modules using the implementation and use any existing module developed by others in the project. The protocol is designed to be easy to implement and use.
 
 Currently supported environments are:
-Python 3.X: https://github.com/bahusvel/COR-Framework-Python
-Go: https://github.com/bahusvel/COR-Framework-GO
-Feel free to develop your own... It's Easy!
+* Python 3.X: https://github.com/bahusvel/COR-Framework-Python
+* Go: https://github.com/bahusvel/COR-Framework-GO
+* Feel free to develop your own... It's Easy!
