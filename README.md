@@ -24,3 +24,6 @@ Currently supported environments are:
 * Python 3.X: https://github.com/bahusvel/COR-Framework-Python
 * Go: https://github.com/bahusvel/COR-Framework-GO
 * Feel free to develop your own... It's Easy!
+
+To develop your own modules please visit the module development guide:
+TODO
