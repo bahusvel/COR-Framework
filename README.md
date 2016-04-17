@@ -13,6 +13,7 @@ https://github.com/bahusvel/COR-Framework/blob/master/protocol.md
 
 Typical application for COR include:
 * Real time backup based on system risk
+* Machine health estimation
 * Enforcing security policies
 * Detailed resource usage and KPI reporting
 * Intelligent system management
@@ -27,3 +28,11 @@ Currently supported environments are:
 
 To develop your own modules please visit the module development guide:
 https://github.com/bahusvel/COR-Framework/blob/master/moduledev.md
+
+# Application Developing using COR-Framework
+
+## Event or Message Driven
+COR modules do not support Request-Reply communication, COR is event driven by design so your application should consider steping away from traditional client-server approach and consider everything as events or messages. COR is designed best to solve those distributed real time problems and respond to events as soon as possible, COR models natural data flows of the system, and if you require Request-Reply based communication consider changing it to message driven approach, this will allow your application not to block waiting for responses.
+
+## Not only COR
+Applications that intend to use COR should understand its philosophy COR is not intended to replace every kind of communication, sometimes application should resort to traditional communication approaches when appropriate. For example if you are developing a web application, the client doesn't have to communicate with the back end using COR, even though its possible to use COR, RESTful service with JSON encoding would be a much better option.
