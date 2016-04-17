@@ -50,4 +50,7 @@ Currently supported environments are:
 * Go: https://github.com/bahusvel/COR-Framework-GO
 * Swift: https://github.com/bahusvel/COR-Framework-Swift.git
 * C/C++: Comming soon...
-* Feel free to develop your own... It's Easy!
+* Feel free to develop your own... It's Easy! 
+
+To implement COR in another runtime please refer to:
+https://github.com/bahusvel/COR-Framework/blob/master/implementing-cor.md
