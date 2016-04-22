@@ -1,1 +1,0 @@
-# COR-Protocol Specification
