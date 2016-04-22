@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+package cor;
+
+message CORMessage {
+    required string type = 1;
+    required bytes  data = 2;
+}
