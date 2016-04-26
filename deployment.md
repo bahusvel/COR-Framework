@@ -12,14 +12,4 @@ In case of aggregation tree, all modules are leaves a connected as leaves of a t
 * Passing Down - If the recipient of the message (module or exchange) is connected directly to the exchange node, the node will delivery the message directly to the module.
 * Passing Up - If no node (module or exchange) is connected to the exchange node the node must pass the message towards the root of the tree (to the exchanges parent), in which case it is up to the parent to decide what to do with the message and it will follow the same two rules.
 
-    +------------------------------+
-    |	     +------------+        |
-    |	     | Aggregator |        |
-    |	     +------------+        |
-    |       /	           \	   |
-    |+-----^--+	         +--^-----+|	
-    || Module |	         | Module ||
-    |+--------+	         +--------+|
-    +------------------------------+
-
 ## Aggregation Mesh
