@@ -23,6 +23,12 @@ Typical application for COR include:
 * Intelligent system management
 * YOUR OWN IDEA HERE!!!
 
+### Example Modules
+* https://github.com/bahusvel/COR-Collectd - infrastructure metrics collection
+* https://github.com/bahusvel/COR-SnortIDS - intrusion detection system integration
+* https://github.com/bahusvel/COR-JITRswitch - software defined network switch
+* Many many more...
+
 ### CLI Development Tool
 COR-Framework has a useful development tool COR-CLI, that can be used to easily create, manage and publish Applications, Modules and Framework implementations in your own runtime, COR-CLI uses GitHub to keep its module repository and it allows you to make your contributions (on your own repo) public using the COR-Index. COR-CLI also allows you to search the COR-Index for modules developed by everyone download them and use them for your application.
 
